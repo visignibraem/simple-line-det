@@ -36,7 +36,7 @@ ret, thresh = cv.threshold(img, 0, 255, cv.THRESH_BINARY_INV + cv.THRESH_OTSU)
 # mask_it = cv.bitwise_or(mask2, mask1, mask=None)
 #
 # res = cv.bitwise_and(img, img, mask=mask_it)
-#
+
 # cv.imwrite('data/temp/temp.jpg', res)
 # img = cv.imread('data/temp/temp.jpg', 0)
 
